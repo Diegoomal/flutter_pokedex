@@ -19,7 +19,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Pokedex',
       theme: ThemeData(primarySwatch: Colors.blue),
-      // home: MyHomePage(title: 'Flutter MyHome'),
       home: ListPokemonPage(title: 'Flutter Pokedex'),
       debugShowCheckedModeBanner: false
     );
